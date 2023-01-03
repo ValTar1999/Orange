@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.cdnfonts.com/css/helvetica-neue-lt-std-55" rel="stylesheet">
+   
+
+   <title>Orange</title>
+</head>
+<body>
+   <div class="header">
+
+      <div class="container">
+
+         <div class="slideshow-container">
+
+            <div class="myslides fade">
+
+               <div class="block-mysldes">
+
+                  <div class="block-left">
+         
+                     <div class="header-title">Delivery <span>services</span></div>
+         
+                     <div class="header-subtitle">Many <span>delivery services</span> offer <br> tracking and insurance <br> for their <span>shipments</span></div>
+         
+                     <div class='btn'>
+                        <a class='button-1' href='#'>Detalii aici</a>
+                     </div>
+
+                     </div>
+
+                     <div class="block-right">
+                        <img class="img" src="./img/1.png" >
+                      </div>
+
+                </div>
+
+            </div>
+
+            <div class="myslides fade">
+
+               <div class="block-mysldes">
+
+                  <div class="block-right">
+                     <img class="img" src="./img/1.png" >
+                   </div>
+
+                  <div class="block-left">
+         
+                     <div class="header-title">Delivery <span>services</span></div>
+         
+                     <div class="header-subtitle">Many <span>delivery services</span> offer <br> tracking and insurance <br> for their <span>shipments</span></div>
+         
+                     <div class='btn'>
+                        <a class='button-1' href='#'>Detalii aici</a>
+                     </div>
+
+                     </div>
+
+
+                </div>
+
+            </div>
+
+            <div style="text-align:center">
+               <span class="dot" onclick="currentSlide(1)"></span>
+               <span class="dot" onclick="currentSlide(2)"></span>
+             </div>
+
+          </div>
+         
+
+      </div>
+
+   </div>
+
+   <div class="cards">
+
+      <div class="container">
+
+         <div class="cards-holder">
+
+            <div class="card">
+
+               <div class="card-img">
+                  <img src=".//img/3.png" alt="">
+               </div>
+
+               <div class="card-title">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, pariatur atque quisquam corrupti sint consequuntur quam ducimus distinctio commodi modi similique asperiores, molestias sit qui quasi soluta placeat dolore eius?
+               </div>
+
+            </div>
+
+            <div class="card">
+
+               <div class="card-img">
+                  <img src=".//img/4.png" alt="">
+               </div>
+
+               <div class="card-title">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, pariatur atque quisquam corrupti sint consequuntur quam ducimus distinctio commodi modi similique asperiores, molestias sit qui quasi soluta placeat dolore eius?
+               </div>
+
+            </div>
+
+            <div class="card">
+
+               <div class="card-img">
+                  <img src=".//img/2.png" alt="">
+               </div>
+
+               <div class="card-title">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, pariatur atque quisquam corrupti sint consequuntur quam ducimus distinctio commodi modi similique asperiores, molestias sit qui quasi soluta placeat dolore eius?
+               </div>
+
+            </div>
+
+         </div>
+
+      </div>
+
+   </div>
+
+   <div class="black-block">
+
+      <div class="container">
+
+         <div class="block-holder">
+            
+            <form action="#" method="get">
+
+               <div class="block-title">Vreau să fiu contactat</div>
+
+               <div class="block-info">
+
+                  <div class="block-left">
+
+                     <div class="block-name">
+
+                        <label for="" class="name-text">Nume*</label>
+                        <input type="text" class="name-container"  tabindex="1" name="username" id="name" onkeyup="check();">
+
+                     </div>
+
+                     <div class="block-email">
+
+                        <label for="" class="email-text">Email*</label>
+                        <input type="email" class="email-conatiner"  tabindex="2" name="useremail" id="email" onkeyup="check();">
+
+                     </div>
+
+                     <div class="block-servicii">
+
+                        <label for="inputServicii" class="servicii-text">Serviciul*</label>
+                        <select class="servicii-container" type="data"  tabindex="3" name="servicii"> 
+                           <option selected></option>
+                           <option>.1.</option>
+                           <option>.2.</option>
+                           <option>.3.</option>
+                        </select>
+
+                     </div>
+
+                     <div class="block-calendar">
+
+                        <label class="calendar-title" for="start">Data când vrei să fii contactat *</label>
+                        <input class="calendar-container" type="date"  name="calendar" tabindex="4" id="calendar" onkeyup="check();"
+                                 value="2018-07-22"
+                                 min="2012-01-01" max="2023-12-31">
+
+                     </div>
+
+                     <div class="block-button">
+                        <button class='btn-text' href='#' tabindex="7" disabled="disabled" id="button">Timite 
+                        </button>
+                     </div>
+
+                  </div>
+
+
+                  <div class="block-right">
+
+                     <div class="block-mesage">
+
+                        <div class="mesage-title">Messaj</div>
+
+                        <div class="mesage-coment">
+
+                           <div class="form-floating">
+                              <input class="form-control" tabindex="5"  type="text" id="message" onkeyup="check();">
+                           </div>
+
+                        </div>
+
+                     </div>
+
+                     <div class="block-checks">
+
+                        <div class="form-check">
+                           <input class="form-check-input" type="checkbox" required tabindex="6" name="checkbox">
+                           <label class="check-title" for="">
+                              Sunt de accord cu prelucrarea datelor introduse
+                           </label>
+                        </div>
+
+                     </div>
+
+                  </div>
+
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>
+
+
+   <footer>
+      <div class="container">
+      <div class="footer-text">Copyright by © Company name</div>
+      </div>
+   </footer>
+    
+
+   <script src="./script.js"></script>
+
+   
+</body>
+</html>
